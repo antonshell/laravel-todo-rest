@@ -2,7 +2,7 @@
 
 Simpliest REST Api built with laravel.
 
-## Install from archive
+## Install
 
 1 . Clone repository
 
@@ -47,6 +47,12 @@ php artisan migrate
 
 ```
 php artisan serve
+```
+
+7 . Ensure server works
+
+```
+http://127.0.0.1:8000
 ```
 
 ## Usage - REST
