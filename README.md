@@ -6,6 +6,10 @@ Simpliest REST Api built with laravel.
 
 1 . Clone repository
 
+```
+git clone https://github.com/antonshell/laravel-todo-rest.git
+```
+
 2 . Install dependencies
 
 ```
@@ -16,21 +20,19 @@ composer install
 
 ```
 CREATE DATABASE justdo CHARACTER SET utf8 COLLATE utf8_general_ci;
-CREATE DATABASE justdo_testing CHARACTER SET utf8 COLLATE utf8_general_ci;
 ```
 
 4 . Configure db connection - edit ```.env```
 
 ```
 cp .env.example .env
-cp .env.example .env.testing
 ```
 
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=downloader_app
+DB_DATABASE=justdo
 DB_USERNAME=root
 DB_PASSWORD=password
 ```
